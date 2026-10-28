@@ -1,0 +1,22 @@
+<student>
+    <firstName>Ramesh</firstName>
+    <lastName> N</lastName>
+    <age>46</age>
+    <addresses>
+        <address type="temporary">
+            <door_no>34</door_no>
+            <street>suumerfield</street>
+            <city>frisco</city>
+            <state>TX</state>
+            <country>USA</country>
+        </address>
+        <address type="permanent">
+            <door_no>34w</door_no>
+            <street>summerfield RD</street>
+            <city>frisco</city>
+            <state>TX</state>
+            <country>USA</country>
+        </address>
+    </addresses>
+
+</student>

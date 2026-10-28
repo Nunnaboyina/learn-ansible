@@ -1,0 +1,25 @@
+{
+    "firstName": "Bavya",
+    "lastName": "Geddada",
+    "dob": "10-29-2002",
+    "addresses": [
+        {
+            "type": "permanent",
+            "doorno": "12-34",
+            "street": "ashburn",
+            "city": "VA"
+        },
+        {
+            "type": "temporary",
+            "doorno": "12-w34",
+            "street": "Dallas",
+            "city": "TX"
+            
+        }
+    ],
+    "skills": {
+        "os": "Linux",
+        "IDE": "VSCode",
+        "config_mgmt": "Ansible"
+    }
+}

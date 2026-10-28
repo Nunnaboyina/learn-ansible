@@ -1,0 +1,39 @@
+- first_name: "Bhavya"
+  last_name: "N"
+  dod: "10-29-2022"
+  # - is for list
+  addresses:
+  - address_type: "permanent"
+    doorno: "23-22"
+    state: "Ashbun"
+    city: "VA"
+    country: "USA"
+  - address_type: "temporary"
+    doorno: "2w3-22"
+    state: "Dallas"
+    city: "VA"
+    country: "USA"
+  skills: 
+    os: "Linux"
+    IDE: "VSCode"
+    Config_tool: "Ansible"
+- first_name: "Ritwik"
+  last_name: "N"
+  dod: "10-29-2022"
+  # - is for list
+  addresses:
+  - address_type: "permanent"
+    doorno: "23-22"
+    state: "Ashbun"
+    city: "VA"
+    country: "USA"
+  - address_type: "temporary"
+    doorno: "2w3-22"
+    state: "Dallas"
+    city: "VA"
+    country: "USA"
+  skills: 
+    os: "Linux"
+    IDE: "VSCode"
+    Config_tool: "Ansible"
+  
