@@ -1,4 +1,4 @@
-- name: varaibles demo
+- name: Demo on Play Level variables
   hosts: local
   connection: local
   vars:
