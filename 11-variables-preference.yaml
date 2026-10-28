@@ -10,9 +10,13 @@
     prompt: Please enter course
     private: false
  
-  tasks:
-  - name: printing confidential information
-    vars:
-      course: ansible from task
+  #tasks:
+  #- name: printing confidential information
+  #  vars:
+  #    course: ansible from task
     debug: 
       msg: "{{course}}"
+
+
+#1 CMD
+#2 TASK
