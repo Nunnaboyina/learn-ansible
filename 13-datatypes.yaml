@@ -22,3 +22,6 @@
         "{{my_int}} is {{my_int | type_debug}}"
         "{{my_list}} is {{my_list | type_debug}}"
         "{{my_map}} is {{my_map | type_debug}}"
+        "{{my_bool}} is {{my_bool | type_debug}}"
+        "{{my_float}} is {{my_float | type_debug}}"
+
