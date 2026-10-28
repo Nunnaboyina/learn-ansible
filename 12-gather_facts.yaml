@@ -8,5 +8,5 @@
   - name: printing some information
     debug:
       msg: |
-      OS_Family: "{{ansible_facts['os_family']}}"
-      private_ip: "{{ansible_facts.default_ipv4.address}}"
+        OS_Family: "{{ansible_facts['os_family']}}"
+        private_ip: "{{ansible_facts.default_ipv4.address}}"
