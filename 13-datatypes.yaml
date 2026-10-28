@@ -2,15 +2,18 @@
   hosts: local
   connection: local
   vars:
-    my_string: "Siva Kumar"
-    my_int: 40
-    my_list:
+    my_string: "Siva Kumar" #string
+    my_int: 40 # int
+    my_list: #list
      - address: 28373 
      - city: frisco
      - state: TX
-    my_map: 
+    my_map: # dict
       port: 2020
       proto: http
+    my_bool: true #bool
+    my_float: 4.5
+
   tasks:
   - name: priting datatypes
     debug:
