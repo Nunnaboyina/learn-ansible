@@ -1,0 +1,7 @@
+- name: Giving variables from command prompt
+  hosts: local
+  connection: local
+  tasks:
+  - name: printing name
+    debug:
+      msg: "Hello {{person_name}}"
