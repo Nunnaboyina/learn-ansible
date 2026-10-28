@@ -1,0 +1,10 @@
+- name: printing
+  hosts: local
+  connection: local
+  tasks:
+  - name: printing default value
+    debug:
+      msg: ""
+  - name: printing user value
+    debug: 
+      msg: "printing Ansible "
