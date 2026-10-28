@@ -8,6 +8,9 @@
     - Mohan
     - Krishna
     - Geddada
+    upperc: ansible
+    lowerc: DEVSECOPS
+    capital: "mohan geddada"
   tasks:
   - name: print name
     debug:
@@ -18,3 +21,12 @@
   - name: convert list to string
     debug:
       msg: "{{ names | join(' ') }}"
+  - name: upper case
+    debug:
+      msg: "{{ upperc | upper }}"
+  - name: lower case
+    debug:
+      msg: "{{ lowerc | lower }}"
+  - name: capitalize
+    debug:
+      msg: "{{ capital | capitalize }}"
