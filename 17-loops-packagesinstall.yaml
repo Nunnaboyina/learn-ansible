@@ -11,5 +11,5 @@
   - name: installing packages
     package:
       name: "{{ item }}"
-      start: present
+      state: present
     loop: "{{ packages }}"
