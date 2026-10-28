@@ -10,8 +10,8 @@
     prompt: Please enter course
     private: false
  
-  #tasks:
-  #- name: printing confidential information
+  tasks:
+  - name: printing confidential information
   #  vars:
   #    course: ansible from task
     debug: 
