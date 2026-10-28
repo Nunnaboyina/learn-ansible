@@ -1,0 +1,11 @@
+- name: demo on task level variables
+  hosts: local
+  connection: local
+  vars:
+    property: 100 acres
+  tasks:
+  - name: print the variables
+    vars:
+      property: 10 acres
+    debug:
+      msg:"Ramesh got {{property}} of property"
