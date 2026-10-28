@@ -10,6 +10,6 @@
       msg: "number {{number}} is even"
 
   - name: even odd
-    when: number % 2 !== 0
+    when: number % 2 != 0
     debug:
       msg: "number {{number}} is odd"
