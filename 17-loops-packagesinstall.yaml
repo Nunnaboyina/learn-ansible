@@ -10,7 +10,6 @@
   tasks:
   - name: installing packages
     package:
-      name: "{{ item }}""
+      name: "{{ item }}"
       start: present
     loop: packages
-     
