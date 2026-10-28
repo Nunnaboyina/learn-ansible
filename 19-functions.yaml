@@ -4,6 +4,10 @@
   vars:
     print_name: "Mohan"
     topics: "Linux, shell, Ansible, Terraform, Docker"
+    names:
+    - Mohan
+    - Krishna
+    - Geddada
   tasks:
   - name: print name
     debug:
@@ -11,3 +15,6 @@
   - name: convert string to list
     debug:
       msg: "Topics are: {{ topics | split(' ,') | trim }}"
+  - name: convert list to string
+    debug:
+      msg: "{{ names | join('') }}"
