@@ -10,6 +10,6 @@
   tasks:
   - name: 
     package:
-      name: "{{item.name}}"
-      state: "{{item.state}}"
+      name: "{{ item.name }}"
+      state: "{{ item.state }}"
     loop: "{{packages}}"
