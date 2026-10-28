@@ -2,9 +2,14 @@
   hosts: local
   connection: local
   vars:
-    number: 10
+    number: 7
   tasks:
   - name: even number
     when: number % 2 == 0
     debug:
       msg: "number {{number}} is even"
+
+  - name: even odd
+    when: number % 2 !== 0
+    debug:
+      msg: "number {{number}} is odd"
