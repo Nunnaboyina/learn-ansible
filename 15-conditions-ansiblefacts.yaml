@@ -1,0 +1,8 @@
+- name: print os is RedHat or not
+  hosts: local
+  connection: local
+  tasks:
+  - name: checking os is RedHat or not
+    debug:
+      msg: " Ansible OS_family is RedHat"
+    when: ansible_facts.os_family == RedHat  
