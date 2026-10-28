@@ -4,4 +4,4 @@
   tasks:
   - name: print name
     debug:
-      msg: "Hi, {{print_name}}"
+      msg: "Hi, {{ print_name | default(Ramesh) }}"
