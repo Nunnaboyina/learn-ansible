@@ -9,7 +9,7 @@
     - git
   tasks:
   - name: installing packages
-    dnf:
+    package:
       name: "{{ item }}"
       start: present
     loop: "{{ packages }}"
