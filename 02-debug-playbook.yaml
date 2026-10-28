@@ -1,10 +1,9 @@
-- name: printing
+- name: demo on debug
   hosts: local
   connection: local
   tasks:
   - name: printing default value
-    debug:
-      msg: ""
+    ansible.builtin.debug:
   - name: printing user value
     debug: 
       msg: "printing Ansible "
