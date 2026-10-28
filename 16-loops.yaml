@@ -1,10 +1,10 @@
-- name: loops
+- name: demo on loops
   hosts: local
   connection: local
   tasks:
-  - name: loops
+  - name: print names
     debug:
-      msg: " Hi, {{item}}"
+      msg: "Hi, {{ item }}" # item is reserved key
     loop:
     - Rahul
     - Ram
