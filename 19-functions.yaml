@@ -30,3 +30,6 @@
   - name: capitalize
     debug:
       msg: "{{ capital | capitalize }}"
+  - name: Every first letter of word capital
+    debug:
+      msg: "{{ capital | title }}"
