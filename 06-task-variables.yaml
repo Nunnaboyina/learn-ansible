@@ -5,7 +5,11 @@
     property: 100 acres
   tasks:
   - name: print the variables
+    debug:
+      msg: "Hi, I got {{property}} of property from my father"
+
+  - name: print the variables again
     vars:
       property: 10 acres
     debug:
-      msg: "Ramesh got {{property}} of property"
+      msg: "Hi, I got {{property}} of property from my father"
