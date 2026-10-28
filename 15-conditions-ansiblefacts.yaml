@@ -2,7 +2,23 @@
   hosts: local
   connection: local
   tasks:
-  - name: checking os is RedHat or not
+  - name: print the os
     debug:
-      msg: " Ansible OS_family is RedHat"
+      msg: " Os distro is RedHat"
     when: ansible_facts.os_family == "RedHat"  
+
+  - name: print the os
+    debug:
+      msg: " Os distro is Ubuntu"
+    when: ansible_facts.os_family == "Debian" 
+  # Install nginx
+  - name: install nginx in RedHat
+    dnf:
+      name: nginx
+      state: present
+    when: ansible_facts.os_family == "RedHat"  
+  - name: install nginx in RedHat
+    apt:
+      name: nginx
+      state: present
+    when: ansible_facts.os_family == "Debian"  
