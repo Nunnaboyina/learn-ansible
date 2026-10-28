@@ -1,0 +1,21 @@
+- name: datatypes
+  hosts: local
+  connection: local
+  vars:
+    my_string: "Siva Kumar"
+    my_int: 40
+    my_list:
+     - address: 28373 
+     - city: frisco
+     - state: TX
+    my_map: 
+      port: 2020
+      proto: http
+  tasks:
+  - name: priting datatypes
+    debug:
+      msg: |
+        "{{my_string}} is {{my_string | type_debug}}"
+        "{{my_int}} is {{my_int | type_debug}}"
+        "{{my_list}} is {{my_list | type_debug}}"
+        "{{my_map}} is {{my_map | type_debug}}"
