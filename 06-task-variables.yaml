@@ -8,4 +8,4 @@
     vars:
       property: 10 acres
     debug:
-      msg:"Ramesh got {{property}} of property"
+      msg: "Ramesh got {{property}} of property"
