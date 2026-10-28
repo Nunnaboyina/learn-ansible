@@ -3,7 +3,11 @@
   connection: local
   vars:
     print_name: "Mohan"
+    topics: "Linux, shell, Ansible, Terraform, Docker"
   tasks:
   - name: print name
     debug:
       msg: "Hi, {{ print_name | default('Ramesh') }}"
+  - name: convert string to list
+    debug:
+      msg: "{{ topic  | split(',') }}"
