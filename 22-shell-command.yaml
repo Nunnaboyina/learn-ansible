@@ -12,7 +12,7 @@
       msg: "{{ ec2_user_output }}"
   
   - name: testing redirection
-    command: ls -la > /tmp/files.txt
+    #command: ls -la > /tmp/files.txt
     shell: ls -la > /tmp/files.txt
     register: shell_output
 
