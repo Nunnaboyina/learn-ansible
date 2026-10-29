@@ -4,9 +4,9 @@
   tasks:
   - name: getting user information
     command: cat /etc/passwd | grep ec2-user
-    register: ec2-user_output
+    register: ec2_user_output
   
   - name: printing user information
     debug:
-      msg: "{{ec2-user_output}}"
+      msg: "{{ ec2_user_output }}"
   
