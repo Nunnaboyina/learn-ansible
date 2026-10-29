@@ -13,6 +13,7 @@
   
   - name: testing redirection
     command: ls -la > /tmp/files.txt
+    shell: ls -la > /tmp/files.txt
     register: shell_output
 
   - name: printing files info
