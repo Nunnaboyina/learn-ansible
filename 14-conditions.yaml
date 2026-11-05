@@ -5,7 +5,7 @@
     number: 7
   tasks:
   - name: even number
-    when: number % 2 == 0
+    when: number % 2 == 0 #expression
     debug:
       msg: "number {{number}} is even"
 
